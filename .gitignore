@@ -1,4 +1,75 @@
+# ---------------------------------------------------------------- dependencies
+# Installed by `npm install`. Never commit: thousands of files, and they are
+# reproducible from package-lock.json.
 node_modules/
-.env
+
+# ---------------------------------------------------------------- build output
+# Produced by `npm run build`. Regenerate it, don't store it.
 dist/
+build/
+.vite/
+
+# ---------------------------------------------------------------- SECRETS
+# This is the important section.
+#
+# backend/.env holds SUPABASE_SERVICE_ROLE_KEY. That key BYPASSES row level
+# security - it can read, write and delete every row in the database and every
+# file in storage, with no restrictions. If it reaches GitHub it is in the git
+# history FOREVER, even if you delete the file in a later commit, because
+# cloning the repo replays every commit. Rotating the key in the Supabase
+# dashboard is the only way to fully undo a leak.
+#
+# The matching .env.example files ARE committed on purpose - they document the
+# variable names without the values, so a new machine knows what to fill in.
+.env
+.env.*
+!.env.example
+
+# Belt and braces: name the specific secrets too, so a renamed file is still
+# caught.
+*.pem
+*.key
+service-role*.json
+
+# ---------------------------------------------------------------- logs
+# Server and Vite logs are written while running. They are machine-specific,
+# they grow without bound, and they sometimes contain absolute paths.
+*.log
+*.log.*
+npm-debug.log*
+yarn-error.log*
+backend/server.err
+backend/server.out
+
+# ---------------------------------------------------------------- uploads
+# Resumes are uploaded by users and held in Supabase Storage. Never commit
+# anyone's personal document, not even while testing.
+uploads/
+backend/uploads/
+frontend/public/uploads/
+*.pdf
+*.doc
+*.docx
+
+# ---------------------------------------------------------------- editors / OS
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------------------------------------- scratch
+# extracted/ was a copy of the project extracted from a zip. It duplicates
+# backend/ and frontend/ and will drift out of sync with them, so nothing in it
+# should be treated as source. The real code is at the repo root.
+extracted/
+
+# ---------------------------------------------------------------- build caches
+.cache/
+.eslintcache
+*.tsbuildinfo
+coverage/
+# database/seed.sql inserted 3 fake jobs (Acme Tech, Startup Labs, Quality
+# First). This project seeds nothing - every row comes from the UI. Keeping it
+# out of the repo stops anyone from running it and filling the app with data
+# that is not theirs.
