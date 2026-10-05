@@ -1,0 +1,77 @@
+
+> job-portal-frontend@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m352[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m2:38:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/pages/Login.jsx, /src/pages/Register.jsx, /src/pages/Jobs.jsx, /src/pages/Dashboard.jsx[22m
+[2m3:58:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/pages/Login.jsx, /src/pages/Register.jsx, /src/pages/Jobs.jsx, /src/pages/Dashboard.jsx[22m
+[2m4:39:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m4:39:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m4:39:56 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/main.jsx[22m
+[2m4:39:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ProtectedRoute.jsx[22m
+[2m4:40:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx[22m
+[2m4:40:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx[22m
+[2m4:40:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Jobs.jsx[22m
+[2m4:41:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/pages/Login.jsx, /src/pages/Register.jsx, /src/pages/Jobs.jsx, /src/pages/Dashboard.jsx[22m
+[2m4:47:38 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m4:48:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/pages/Login.jsx, /src/pages/Register.jsx, /src/pages/Jobs.jsx, /src/pages/Dashboard.jsx[22m
+[2m4:49:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m4:51:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m4:55:20 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m4:56:51 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m5:00:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/JobCard.jsx[22m
+[2m5:00:48 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/components/JobCard.jsx[22m Could not Fast Refresh (new export)
+[2m5:00:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CompanyPublic.jsx, /src/pages/SavedJobs.jsx, /src/pages/Notifications.jsx, /src/pages/Jobs.jsx, /src/pages/Dashboard.jsx, /src/pages/Alerts.jsx, /src/pages/JobDetails.jsx, /src/pages/Admin.jsx, /src/pages/MyApplications.jsx, /src/pages/Applicants.jsx, /src/components/NotificationBell.jsx, /src/components/ResumeManager.jsx[22m
+[2m5:01:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m5:02:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Jobs.jsx[22m
+[2m5:03:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/JobDetails.jsx[22m
+[2m5:07:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m5:08:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SavedJobs.jsx[22m
+[2m5:09:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/MyApplications.jsx[22m
+[2m5:09:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/MyApplications.jsx[22m
+[2m5:10:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m5:10:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m5:10:39 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m5:11:25 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Applicants.jsx[22m
+[2m5:11:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Applicants.jsx[22m
+[2m5:16:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m5:16:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m5:16:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m5:16:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m5:22:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m5:28:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ApplyModal.jsx[22m
+[2m5:28:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ResumeManager.jsx[22m
+[2m5:28:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ResumeManager.jsx[22m
+[2m5:29:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/NotificationBell.jsx[22m
+[2m5:29:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Notifications.jsx[22m
+[2m5:39:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m5:51:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ResumeManager.jsx[22m
+[2m5:51:39 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ResumeManager.jsx[22m
+[2m5:51:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ResumeManager.jsx[22m
+[2m5:52:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Profile.jsx[22m
+[2m5:52:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/SectionEditor.jsx[22m
+[2m5:52:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/SectionEditor.jsx[22m
+[2m5:52:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Profile.jsx[22m
+[2m5:58:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Login.jsx[22m
+[2m5:58:30 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CompanyProfile.jsx[22m
+[2m6:00:28 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx[22m
+[2m6:04:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx, /src/pages/Profile.jsx, /src/pages/CompanyProfile.jsx[22m
+[2m6:18:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m6:18:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.jsx[22m
+[2m6:30:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx[22m
+[2m6:30:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Register.jsx, /src/pages/Profile.jsx, /src/pages/CompanyProfile.jsx[22m
+[2m6:31:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CompanyProfile.jsx[22m
+[2m6:31:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Profile.jsx[22m
+[2m6:31:20 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Field.jsx[22m
+[2m7:12:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Jobs.jsx, /src/pages/Dashboard.jsx, /src/context/AuthContext.jsx, /src/pages/CompanyPublic.jsx, /src/pages/SavedJobs.jsx, /src/pages/Notifications.jsx, /src/pages/Profile.jsx, /src/pages/ApplicantProfile.jsx, /src/pages/Alerts.jsx, /src/pages/JobDetails.jsx, /src/pages/Admin.jsx, /src/pages/CompanyProfile.jsx, /src/pages/MyApplications.jsx, /src/pages/Applicants.jsx, /src/components/NotificationBell.jsx, /src/components/ResumeManager.jsx, /src/components/SectionEditor.jsx, /src/components/JobForm.jsx, /src/components/ApplyModal.jsx[22m
+[2m7:12:45 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m7:12:45 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m7:12:45 pm[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/components/JobForm.jsx[22m Could not Fast Refresh ("jobToForm" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m7:12:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/EditJob.jsx, /src/pages/PostJob.jsx[22m
+[2m7:52:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Applicants.jsx[22m
+[2m7:52:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Applicants.jsx[22m
+[2m7:52:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Applicants.jsx[22m

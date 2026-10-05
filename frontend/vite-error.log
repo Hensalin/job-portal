@@ -1,0 +1,134 @@
+[2m5:16:31 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\hemal\Downloads\job-portal\frontend\src\components\Navbar.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (117:14)
+
+[0m [90m 115 |[31m [90m                 moment later, which reads as a bug even when nothing is wrong. */[31m
+ [90m 116 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m58[31m }} [33m/[31m[33m>[31m
+[31m[1m>[22m[31m[90m 117 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m92[31m }} [33m/[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 118 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m74[31m }} [33m/[31m[33m>[31m
+ [90m 119 |[31m             ) [33m:[31m user
+ [90m 120 |[31m               [33m?[31m linksFor(user[33m.[31mrole)[33m.[31mmap((l) [33m=>[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/hemal/Downloads/job-portal/frontend/src/components/Navbar.jsx[39m:117:14
+[33m  115|                   moment later, which reads as a bug even when nothing is wrong. */
+  116|                <span className="nav-ghost" style={{ width: 58 }} />
+  117|                <span className="nav-ghost" style={{ width: 92 }} />
+     |                ^
+  118|                <span className="nav-ghost" style={{ width: 74 }} />
+  119|              ) : user[39m
+      at constructor (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:6622:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4760:18)
+      at JSXParserMixin.jsxParseElement (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4767:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4777:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12527:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11706:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11362:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4782:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:17)
+      at JSXParserMixin.parseConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10917:30)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10911:17)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10810:23)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10806:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseExpression (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10806:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4650:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4729:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4767:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4777:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+[2m5:16:37 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\hemal\Downloads\job-portal\frontend\src\components\Navbar.jsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (117:14)
+
+[0m [90m 115 |[31m [90m                 moment later, which reads as a bug even when nothing is wrong. */[31m
+ [90m 116 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m58[31m }} [33m/[31m[33m>[31m
+[31m[1m>[22m[31m[90m 117 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m92[31m }} [33m/[31m[33m>[31m
+ [90m     |[31m               [31m[1m^[22m[31m
+ [90m 118 |[31m               [33m<[31m[33mspan[31m className[33m=[31m[32m"nav-ghost"[31m style[33m=[31m{{ width[33m:[31m [35m74[31m }} [33m/[31m[33m>[31m
+ [90m 119 |[31m             ) [33m:[31m user
+ [90m 120 |[31m               [33m?[31m linksFor(user[33m.[31mrole)[33m.[31mmap((l) [33m=>[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/hemal/Downloads/job-portal/frontend/src/components/Navbar.jsx[39m:117:14
+[33m  115|                   moment later, which reads as a bug even when nothing is wrong. */
+  116|                <span className="nav-ghost" style={{ width: 58 }} />
+  117|                <span className="nav-ghost" style={{ width: 92 }} />
+     |                ^
+  118|                <span className="nav-ghost" style={{ width: 74 }} />
+  119|              ) : user[39m
+      at constructor (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:6622:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4760:18)
+      at JSXParserMixin.jsxParseElement (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4767:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4777:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12527:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11706:28)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11362:23)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4782:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10826:17)
+      at JSXParserMixin.parseConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10917:30)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10911:17)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
+      at JSXParserMixin.parseExpressionBase (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10810:23)
+      at C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10806:39
+      at JSXParserMixin.allowInAnd (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:12460:12)
+      at JSXParserMixin.parseExpression (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10806:17)
+      at JSXParserMixin.jsxParseExpressionContainer (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4650:31)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4729:36)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4716:32)
+      at JSXParserMixin.jsxParseElement (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4767:17)
+      at JSXParserMixin.parseExprAtom (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:4777:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11107:23)
+      at JSXParserMixin.parseUpdate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11092:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:11072:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10925:61)
+      at JSXParserMixin.parseExprOps (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10930:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10907:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Users\hemal\Downloads\job-portal\frontend\node_modules\@babel\parser\lib\index.js:10857:21)
